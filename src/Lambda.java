@@ -22,7 +22,7 @@ class MyMath {
     }
 
     public PerformOperation isPrime() {
-        PerformOperation op = i -> (!(i % 2 == 0) && (i % i == 0)) ? true : false;
+        PerformOperation op = i -> !(i % 2 == 0);
         return op;
     }
 
